@@ -186,6 +186,18 @@ body{
 .avatar-法官-default{
   background-image:url("image/judge_deflaut.png");
 }
+.avatar-米勒少爷-default{
+  background-image:url("image/mile1.png");
+}
+.avatar-米勒小姐-default{
+  background-image:url("image/mile2.png");
+}
+.avatar-米勒夫人-default{
+  background-image:url("image/Mrmile.png");
+}
+.avatar-仆人们-default{
+  background-image:url("image/servent.png");
+}
 /*高亮*/
 .highLight{
   color:white;
@@ -477,7 +489,6 @@ State.variables.peoples={
     &quot;法官&quot;:{
     	name:&quot;法官&quot;,
         description:&quot;负责裁决维奥利特命运的人。&quot;,
-        birthday:&quot;？？？&quot;,
 		age:35,
         acquired:false,
         avatars:{
@@ -488,6 +499,48 @@ State.variables.peoples={
         	normal:&quot;image/violet_stand_deflaut.png&quot;
         },
         currentStand: &quot;image/violet_stand_deflaut.png&quot;
+    },
+    &quot;米勒兄妹&quot;:{
+    	name:&quot;米勒兄妹&quot;,
+        description:&quot;受害者的孩子，维奥利特的堂哥堂姐。性格骄纵，受教育程度不足。&quot;,
+		age:16,
+        acquired:false,
+        avatars:{
+        	normal:&quot;image/Witness1.png&quot;
+        },
+        currentAvatar: &quot;image/Witness1.png&quot;,
+        stands:{
+        	normal:&quot;image/Witness1.png&quot;
+        },
+        currentStand: &quot;image/Witness1.png&quot;
+    },
+    &quot;米勒夫人&quot;:{
+    	name:&quot;米勒夫人&quot;,
+        description:&quot;受害者的妻子，维奥利特的舅妈。穿着华丽，身边总是围绕着许多年轻人。&quot;,
+		age:39,
+        acquired:false,
+        avatars:{
+        	normal:&quot;image/Witness2.png&quot;
+        },
+        currentAvatar: &quot;image/Witness2.png&quot;,
+        stands:{
+        	normal:&quot;image/Witness2.png&quot;
+        },
+        currentStand: &quot;image/Witness2.png&quot;
+    },
+    &quot;米勒爵爷&quot;:{
+    	name:&quot;米勒爵爷&quot;,
+        description:&quot;本案的受害者，维奥利特的舅舅。维奥在来信中对其抱怨连连。&quot;,
+		age:39,
+        acquired:false,
+        avatars:{
+        	normal:&quot;image/Witness2.png&quot;
+        },
+        currentAvatar: &quot;image/Witness2.png&quot;,
+        stands:{
+        	normal:&quot;image/Witness2.png&quot;
+        },
+        currentStand: &quot;image/Witness2.png&quot;
     }
 }
 
@@ -496,25 +549,25 @@ State.variables.clues={
     	name:&quot;尸检报告&quot;,
         description:&quot;米勒爵爷身上有两处明显创口。其肩膀处被一把餐刀刺入，其脑后有钝器敲击痕迹。&quot;,
         img:&quot;image/roy_deflaut.png&quot;,
-         acquired:false
+        acquired:false
     },
     &quot;粗略的现场报告&quot;:{
     	name:&quot;粗略的现场报告&quot;,
         description:&quot;米勒爵爷房间在三楼。窗外有一颗树，其一树枝靠近窗户，可供人攀爬。但经过检查，树上没有树枝折断或者任何的攀爬痕迹。&quot;,
         img:&quot;image/roy_deflaut.png&quot;,
-         acquired:false
+        acquired:false
     },
      &quot;粗略的背景调查&quot;:{
     	name:&quot;粗略的背景调查&quot;,
         description:&quot;维奥利特父亲在其记事前就已经去世，其与母亲便寄住在舅舅家，在其母亲意外逝世后，维奥利特也依然寄住在其舅舅家，由其舅舅抚养。&quot;,
         img:&quot;image/roy_deflaut.png&quot;,
-         acquired:false
+        acquired:false
     },
     &quot;粗略的目击报告&quot;:{
     	name:&quot;粗略的目击报告&quot;,
         description:&quot;当天所有在米勒宅邸中的佣人、客人以及米勒夫人和两位少爷小姐都没有见过任何可疑人士，但从他们的表现来看，或许他们为了主人的颜面有所隐瞒。&quot;,
         img:&quot;image/roy_deflaut.png&quot;,
-         acquired:false
+        acquired:false
     },
     &quot;祸龙&quot;:{
     	name:&quot;祸龙&quot;,
@@ -522,25 +575,25 @@ State.variables.clues={
         祸龙一族擅于工巧技艺，且又是龙族，先天在魔法上有巨大优势。从第一位祸龙起，其家族中就不断流传出各种奇异的附魔工巧，只可惜祸龙一族先天不喜斗争，与世隔绝，这些技艺都被用于生产、生活。
         近年来永恒花城与其北边白龙之岭战事频发，为了提升永恒花城的军事力量，一众贵族都想从祸鸣谷取得些许可用于战争的知识。`,
         img:&quot;image/roy_deflaut.png&quot;,
-         acquired:false
+        acquired:false
     },
     &quot;详细的尸检报告&quot;:{
     	name:&quot;详细的尸检报告&quot;,
         description:&quot;死者脑后受到重击，胸口有刺入伤。尸体被发现时呈现为躺姿，仰面倒在地毯上，其脑后有血迹。&quot;,
         img:&quot;image/roy_deflaut.png&quot;,
-         acquired:false
+        acquired:false
     },
     &quot;小餐桌&quot;:{
     	name:&quot;小餐桌&quot;,
         description:&quot;桌子维持着倒下的状态，其周边是碎落的玻璃杯、白瓷盘、一副刀叉与酒瓶，地毯上有一圈暗红色污渍，在红色的地毯上看着并不明显，看着应该是红酒浸入地毯留下的。&quot;,
         img:&quot;image/roy_deflaut.png&quot;,
-         acquired:false
+        acquired:false
     },
     &quot;现场的碎片&quot;:{
     	name:&quot;现场的碎片&quot;,
         description:&quot;在现场时，你趁官方人员不注意，拼回的碎片。除了一副完整的盘子与玻璃杯之外，还多出了一些碎片。地面上铺着地毯，盘子要怎么才能被摔的粉碎？&quot;,
         img:&quot;image/roy_deflaut.png&quot;,
-         acquired:false
+        acquired:false
     },
     &quot;打碎的香水&quot;:{
     	name:&quot;打碎的香水&quot;,
@@ -552,19 +605,25 @@ State.variables.clues={
     	name:&quot;魔力谱&quot;,
         description:&quot;保险箱上参与魔力的谱图。&quot;,
         img:&quot;image/roy_deflaut.png&quot;,
-         acquired:false
+        acquired:false
     },
     &quot;床&quot;:{
     	name:&quot;床&quot;,
         description:&quot;被翻的一团乱，你隐约感觉到上面有一种奇妙的气味，但是这整个房间中混杂的香水味彻底掩盖了它。&quot;,
         img:&quot;image/roy_deflaut.png&quot;,
-         acquired:false
+        acquired:false
     },
     &quot;警方的调查报告&quot;:{
     	name:&quot;警方的调查报告&quot;,
         description:&quot;现场并没有找到属于“神秘人士”的指纹，维奥利特声称这位神秘人士带着一双手套。&quot;,
         img:&quot;image/roy_deflaut.png&quot;,
-         acquired:false
+        acquired:false
+    },
+    &quot;米勒爵爷的传闻&quot;:{
+    	name:&quot;米勒爵爷的传闻&quot;,
+        description:&quot;米勒爵爷似乎有些丑闻？可是谁会告诉你呢？&quot;,
+        img:&quot;image/roy_deflaut.png&quot;,
+        acquired:false
     }
 }
 
@@ -641,6 +700,9 @@ State.variables.acquiredItems = [];
 &lt;&lt;linkreplace &quot;继续听下去&quot;&gt;&gt;
 &lt;&lt;speech &quot;维奥利特&quot;&gt;&gt;
 &lt;&lt;type 70ms&gt;&gt;
+&lt;&lt;script&gt;&gt;
+if(!State.variables.acquiredPeoples.includes(&quot;米勒爵爷&quot;)){ setup.acquirePeople(&quot;米勒爵爷&quot;);}
+&lt;&lt;/script&gt;&gt;
 我往发出声响的地方找去，那是舅舅的房间，门没有关上，我不敢直接推门进去，所以先从门缝里查看房内的情况。
 我看见一个穿着夜行衣的人，正准备打开窗户，舅舅则倒在血泊中。
 &lt;&lt;/type&gt;&gt;
@@ -1116,12 +1178,31 @@ if(!State.variables.acquiredClues.includes(&quot;床&quot;)){ setup.acquireClue(
 if(!State.variables.acquiredClues.includes(&quot;警方的调查报告&quot;)){ setup.acquireClue(&quot;警方的调查报告&quot;);}
 &lt;&lt;/script&gt;&gt;
 现场似乎没有什么值得注意的了
-[[去问问证人|幕间一-询问证人]]
+[[去问问证人|幕间一-询问证人-米勒兄妹]]
 &lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="29" name="更新日志" tags="" position="1500,25" size="100,100">2025/10/12
 继续填写故事线
 
 待解决：
-失去物品的表达方式</tw-passagedata><tw-passagedata pid="30" name="幕间一-询问证人" tags="clue" position="1825,600" size="100,100"></tw-passagedata><tw-passagedata pid="31" name="详细的尸检报告" tags="noreturn clue" position="1225,225" size="100,100">&lt;&lt;set _clue to State.variables.clues[&quot;详细的尸检报告&quot;]&gt;&gt;
+失去物品的表达方式</tw-passagedata><tw-passagedata pid="30" name="幕间一-询问证人-米勒兄妹" tags="clue" position="1825,600" size="100,100">&lt;&lt;script&gt;&gt;
+if(!State.variables.acquiredPeoples.includes(&quot;米勒兄妹&quot;)){ setup.acquirePeople(&quot;米勒兄妹&quot;);}
+&lt;&lt;/script&gt;&gt;
+米勒少爷与米勒小姐
+&lt;img src =&quot;imageWitness1.png&quot; width=&quot;250px&quot; style=&quot;display: block; margin: 0 auto;&quot;&gt;
+
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;米勒少爷&quot;&gt;&gt;维奥利特？那个白眼狼！一定是他杀了父亲，父亲供他吃穿，他却毫不满足，怀恨在心！&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+
+&lt;&lt;linkreplace &quot;询问他们当晚的状况&quot;&gt;&gt;
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;米勒小姐&quot;&gt;&gt;我们？我们一直在聚会上啊，所有人都能替我们证明！不信你去问，妈妈也好，仆人也好，同学也好，他们都能证明。你、你在怀疑是我们吗？&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;linkreplace &quot;关于神秘人士&quot;&gt;&gt;
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;米勒少爷&quot;&gt;&gt;没见过！维奥利特那个骗子胡扯的吧！他总是满嘴漂亮话，把别人耍的团团转，老师也好、同学也好，都被他骗了！真是不敢相信他居然和我们一样都姓米勒。&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;linkreplace &quot;维奥利特在学校的表现&quot;&gt;&gt;
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;米勒小姐&quot;&gt;&gt;那个贱种在学校可会讨人欢心了，把那些不知道他真面目的人哄的团团转，真是该死。他不过有些小聪明，会耍一些小手段，成绩稍微好那么一些罢了，真是不知羞耻！&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;罗伊&quot;&gt;&gt;（维奥在信里把自己的成绩单也寄来过，据我的不完全统计，他排在年级前几名的概率接近93%。原来这在永恒花城人眼中只是“成绩稍微好那么一些的程度......其实永恒花城的教育很严苛？”）&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;罗伊&quot;&gt;&gt;（嗯......这似乎也符合“嫉妒”的场景？）&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+
+[[询问两位是否嫉妒维奥|好奇罗伊在哪里]]
+[[算了，抓紧时间去询问别的证人|幕间一-询问证人-米勒夫人]]
+&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="31" name="详细的尸检报告" tags="noreturn clue" position="1225,225" size="100,100">&lt;&lt;set _clue to State.variables.clues[&quot;详细的尸检报告&quot;]&gt;&gt;
 &lt;&lt;if _clue&gt;&gt;
     &lt;table border=&quot;2&quot;&gt;
         &lt;tr&gt;
@@ -1238,7 +1319,6 @@ if(!State.variables.acquiredClues.includes(&quot;警方的调查报告&quot;)){ 
             &lt;/th&gt;
             &lt;th&gt;
                 &lt;hr&gt;
-                生日：_people.birthday&lt;hr&gt;
                 年龄：_people.age&lt;hr&gt;
                 _people.description
             &lt;/th&gt;
@@ -1246,6 +1326,173 @@ if(!State.variables.acquiredClues.includes(&quot;警方的调查报告&quot;)){ 
     &lt;/table&gt;
 &lt;&lt;else&gt;&gt;
     &lt;p&gt;无法加载人物数据，请检查游戏初始化&lt;/p&gt;
+&lt;&lt;/if&gt;&gt;
+
+[[返回|$return]]</tw-passagedata><tw-passagedata pid="38" name="人物" tags="people" position="600,25" size="100,100"></tw-passagedata><tw-passagedata pid="39" name="线索" tags="clue" position="600,225" size="100,100"></tw-passagedata><tw-passagedata pid="40" name="物品" tags="item" position="600,425" size="100,100"></tw-passagedata><tw-passagedata pid="41" name="米勒兄妹" tags="noreturn people" position="1025,25" size="100,100">&lt;&lt;set _people to State.variables.peoples[&quot;米勒兄妹&quot;]&gt;&gt;
+&lt;&lt;if _people&gt;&gt;
+    &lt;table border=&quot;2&quot;&gt;
+        &lt;tr&gt;
+            &lt;th&gt;
+                &lt;img src =&quot;image/Witness1.png&quot;&gt;
+            &lt;/th&gt;
+            &lt;th&gt;
+                &lt;hr&gt;
+                年龄：_people.age&lt;hr&gt;
+                _people.description
+            &lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;&lt;else&gt;&gt;
+    &lt;p&gt;无法加载人物数据，请检查游戏初始化&lt;/p&gt;
+&lt;&lt;/if&gt;&gt;
+
+[[返回|$return]]</tw-passagedata><tw-passagedata pid="42" name="好奇罗伊在哪里" tags="" position="1950,700" size="100,100">&lt;&lt;script&gt;&gt;
+State.variables.peoples[&quot;罗伊&quot;].human+=1;
+State.variables.peoples[&quot;罗伊&quot;].object-=1;
+&lt;&lt;/script&gt;&gt;
+
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;罗伊&quot;&gt;&gt;你们对维奥利特的评价很负面，我可以理解为你们嫉妒他吗？&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;米勒少爷&quot;&gt;&gt;我们？我们有什么需要嫉妒他的！他、他不过是我们家的寄生虫！
+你！对啊，你在法庭上说你是他朋友，既然如此我们没有什么好和你说的了！滚吧，你这不知道哪来的贱民！&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+
+&lt;&lt;linkreplace &quot;他们不肯再和你说话&quot;&gt;&gt;
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;罗伊&quot;&gt;&gt;（这似乎很符合小说中对于”恼羞成怒“的描述。原来如此，这就是”恼羞成怒“。）&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+[[去问问别的人吧|幕间一-询问证人-米勒夫人]]
+&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="43" name="幕间一-询问证人-米勒夫人" tags="clue" position="2100,600" size="100,100">
+&lt;&lt;script&gt;&gt;
+if(!State.variables.acquiredPeoples.includes(&quot;米勒夫人&quot;)){ setup.acquirePeople(&quot;米勒夫人&quot;);}
+&lt;&lt;/script&gt;&gt;
+&lt;img src=&quot;image\Witness2.jpg&quot; width=&quot;250px&quot; style=&quot;display: block; margin: 0 auto;&quot;&gt;
+听说事件发生后城内有名气的高级裁纺铺立刻接到了来自米勒府的订单，要求做出够华贵、美丽的丧服，以便米勒夫人能够体面且美丽的为米勒爵爷守丧。钱总能使人突破极限，不过几天，米勒夫人已经可以根据不同的时间与天气以及场合换上几件丧服。
+
+米勒夫人身着黑色纱裙坐在沙发上，夸张的裙摆铺满了整个沙发，她的身旁围绕着一群男女眷。侧坐的沙发也坐满客人。整个客厅好不热闹。女人看着悲伤，藏在黑纱下的眼却在人群中流连着，与身周的客人勾结。
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;罗伊&quot;&gt;&gt;(这难道就是小说里说的用眼神交流？难以读懂，真是可惜)&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+
+&lt;&lt;linkreplace &quot;当晚的情况&quot;&gt;&gt;
+当晚的情况
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;米勒夫人&quot;&gt;&gt; 我一直在客厅陪伴着孩子们，你知道的，这个年纪的孩子没有大人看管着简直会拆了这座宅邸。
+ 我的两个孩子？我乖巧的小花们一直在聚会上，没有离开半步。他们可是聚会上的明星，所有人都围着他们转呢。&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+
+&lt;&lt;linkreplace &quot;对维奥利特的评价&quot;&gt;&gt;
+对维奥利特的评价
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;米勒夫人&quot;&gt;&gt; 这孩子......
+（米勒夫人做出一副害怕的模样，用手帕捂住嘴）
+我一直很害怕他的眼神，天哪，要是你们见到过他的眼神也一定会害怕的，那双眼就像世界上最凶恶的红龙一样......&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+
+男人女人们有些玩味的看向你，这或许是因为祸龙属于红龙种
+
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;罗伊&quot;&gt;&gt;（他们为什么要那样看我？红龙很凶恶吗？）&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;米勒夫人&quot;&gt;&gt; 可是我和丈夫还是决定养育他，因为我们认为邪恶的孩子也是可以靠爱感化的，可是我们错了，他比白龙还狠心、还是下了杀手——
+（她发出一声夸张的呜咽）
+ 对养育他长大的亲舅舅！&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+ 她身周的男男女女都做出夸张的肢体语言，纷纷指责起维奥来。米勒夫人像是不经意的拉起你的手，像是想把你拉入沙发。
+ &lt;&lt;linkreplace &quot;唔......这沙发可能已经满员了&quot;&gt;&gt;
+ 你把手抽回来，这儿的人可真多，沙发上已经坐不下多余的人了。要是米勒夫人再拉下去你可能得坐到谁的怀里。
+ &lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;罗伊&quot;&gt;&gt;（这是一种表演吗？只要发出一些古怪的声音就会有人附和的表演？哭的时候为什么要扶住额头呢，难道他们的额头上有什么机关？可是维奥哭的时候也不这样阿。永恒花城人真难懂。）&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+ 
+ 米勒爵爷的人物档案已更新。
+ &lt;&lt;script&gt;&gt;
+State.variables.peoples[&quot;米勒爵爷&quot;].description+=&quot;一些人们将其称作真正的绅士。&quot;;&lt;&lt;/script&gt;&gt;
+
+&lt;&lt;linkreplace &quot;还有什么可以问的吗？&quot;&gt;&gt;
+他们拉着你问东问西，问祸鸣谷里的生活，窥探你的隐私。
+
+&lt;&lt;linkreplace &quot;看来问不出什么了&quot;&gt;&gt;
+[[询问仆人去|幕间一-询问证人-仆人们]]
+&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="44" name="米勒夫人" tags="noreturn people" position="1125,25" size="100,100">&lt;&lt;set _people to State.variables.peoples[&quot;米勒夫人&quot;]&gt;&gt;
+&lt;&lt;if _people&gt;&gt;
+    &lt;table border=&quot;2&quot;&gt;
+        &lt;tr&gt;
+            &lt;th&gt;
+                &lt;img src =&quot;image/Witness2.png&quot;&gt;
+            &lt;/th&gt;
+            &lt;th&gt;
+                &lt;hr&gt;
+                年龄：_people.age&lt;hr&gt;
+                _people.description
+            &lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;&lt;else&gt;&gt;
+    &lt;p&gt;无法加载人物数据，请检查游戏初始化&lt;/p&gt;
+&lt;&lt;/if&gt;&gt;
+
+[[返回|$return]]</tw-passagedata><tw-passagedata pid="45" name="米勒爵爷" tags="noreturn people" position="1225,25" size="100,100">&lt;&lt;set _people to State.variables.peoples[&quot;米勒爵爷&quot;]&gt;&gt;
+&lt;&lt;if _people&gt;&gt;
+    &lt;table border=&quot;2&quot;&gt;
+        &lt;tr&gt;
+            &lt;th&gt;
+                &lt;img src =&quot;image/Witness2.png&quot;&gt;
+            &lt;/th&gt;
+            &lt;th&gt;
+                &lt;hr&gt;
+                年龄：_people.age&lt;hr&gt;
+                _people.description
+            &lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;&lt;else&gt;&gt;
+    &lt;p&gt;无法加载人物数据，请检查游戏初始化&lt;/p&gt;
+&lt;&lt;/if&gt;&gt;
+
+[[返回|$return]]</tw-passagedata><tw-passagedata pid="46" name="幕间一-询问证人-仆人们" tags="clue" position="2250,600" size="100,100">&lt;img src=&quot;image\Witness3.jpg&quot; width=&quot;250px&quot; style=&quot;display: block; margin: 0 auto;&quot;&gt;
+几个佣人相互交流着眼神，可惜你看不懂。
+
+&lt;&lt;linkreplace &quot;当晚的情况&quot;&gt;&gt;
+当晚的情况
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;仆人们&quot;&gt;&gt; 我们一直在为少爷与小姐的宴会忙前忙后，根本没有见到什么神秘人士。
+这个年纪的孩子闹腾起来可真是要了老命了，不管从厨房端出什么来都填不满他们的胃！&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;linkreplace &quot;米勒少爷和米勒小姐的行动&quot;&gt;&gt;
+米勒少爷和米勒小姐的行动
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;仆人们&quot;&gt;&gt;呃......&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+佣人之间相互交换了眼神
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;仆人们&quot;&gt;&gt;他们当然一直在宴会上啊，你难道觉得少爷和小姐会丢下客人不管不顾吗，在爵爷和夫人身体力行的教导下，少爷和小姐可是、呃、可是讲礼数的！&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;linkreplace &quot;关于维奥利特&quot;&gt;&gt;
+关于维奥利特
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;仆人们&quot;&gt;&gt; 
+早些年连他的母亲克里斯托也住在这里，她是个寡妇，丈夫死在战场上了，只能投奔自己哥哥，也就是米勒爵爷。后来他母亲出事，也去世了，这孩子也无处可去，主人看维奥利特可怜，便继续养着他。
+哎，真是可惜了主人一片善心，被这不懂感恩的白眼狼给祸害了。&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;罗伊&quot;&gt;&gt; 
+（维奥在信里常常提到，他舅舅经常要他证明自己的价值，否则就要把维奥赶出家门，或者卖给恋童的贵族。当然，米勒爵爷要他证明的价值其实和买卖也没有什么区别，不过是价值高就卖给豪门，价值低就贱卖给小贵族作佣人。）&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;linkreplace &quot;关于米勒爵爷&quot;&gt;&gt;
+关于米勒爵爷
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;仆人们&quot;&gt;&gt; 
+主人可是一顶一的绅士啊，大善人！
+坊间的传闻可都是那些嫉妒老爷的人品的人编造的，不可信不可信。&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;linkreplace &quot;米勒爵爷的传闻?&quot;&gt;&gt;
+米勒爵爷的传闻
+&lt;&lt;type 20ms&gt;&gt;&lt;&lt;speech &quot;仆人们&quot;&gt;&gt; 
+传闻啊，就是.....&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;type 20ms&gt;&gt;&lt;&lt;speech &quot;仆人们&quot;&gt;&gt; 
+（突然的咳嗽）年长一些的佣人立刻打断了年轻佣人的话&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;type 20ms&gt;&gt;&lt;&lt;speech &quot;仆人们&quot;&gt;&gt; 
+既然已经是传闻了，也不需要去了解，不过是栽赃陷害，都不重要。米勒老爷已经遭遇不幸了，不要再谈论这些对他不幸的事情了。&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;linkreplace &quot;是什么传闻呢&quot;&gt;&gt;
+&lt;&lt;script&gt;&gt;
+if(!State.variables.acquiredClues.includes(&quot;米勒爵爷的传闻&quot;)){ setup.acquireClue(&quot;米勒爵爷的传闻&quot;);}
+&lt;&lt;/script&gt;&gt;
+佣人们支支吾吾不再谈论案件，眼神飘忽不定
+&lt;&lt;type 30ms&gt;&gt;&lt;&lt;speech &quot;罗伊&quot;&gt;&gt; 
+（唔......永恒花城人难道能靠眼神交流吗？）&lt;&lt;/speech&gt;&gt;&lt;&lt;/type&gt;&gt;
+[[去问问当晚参加宴会的学生们吧|幕间一-询问证人-同学]]
+&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="47" name="幕间一-询问证人-同学" tags="clue" position="2400,600" size="100,100"></tw-passagedata><tw-passagedata pid="48" name="米勒爵爷的传闻" tags="noreturn clue" position="1825,225" size="100,100">&lt;&lt;set _clue to State.variables.clues[&quot;米勒爵爷的传闻&quot;]&gt;&gt;
+&lt;&lt;if _clue&gt;&gt;
+    &lt;table border=&quot;2&quot;&gt;
+        &lt;tr&gt;
+            &lt;th&gt;
+                &lt;img src =&quot;image/roy_deflaut.png&quot;&gt;
+            &lt;/th&gt;
+            &lt;th&gt;
+            	_clue.name
+                &lt;hr&gt;
+                _clue.description
+            &lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;&lt;else&gt;&gt;
+    &lt;p&gt;无法加载证据数据，请检查游戏初始化&lt;/p&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[返回|$return]]</tw-passagedata></tw-storydata>
